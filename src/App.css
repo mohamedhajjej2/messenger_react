@@ -1,38 +1,202 @@
-.App {
-  text-align: center;
+a{
+  text-decoration: none;
 }
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+  font-family: Calibre, Helvetica Neue, Segoe UI, Helvetica, Arial, Lucida Grande, sans-serif;
+  font-size: 13px;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 500;
+  
+  margin-left: 418px;
+  transition: opacity .2s ease-in;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+li{
+  display: inline-block;
+  vertical-align: middle;
+ 
+  margin: 12px;
 }
+.img1{
+  height: 40px;
+  width: 40px;
+}
+.navbar{
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    margin-top: 29px;
+    margin-left: 34px;
+}
+.img2{
+  margin-left: 0;
+  
+  width: 520px;
+}
+.titre{
+  background: linear-gradient(81.84deg, #0099ff -9.4%, #a033ff 51.57%, #ff5280 84.07%, #ff7061 90.59%);
+  -webkit-background-clip: text;
+  color: transparent;
+  display: inline-block;
+  font-weight: 450;
+  font-size: 70px;
+  letter-spacing: -4px;
+  line-height: 85px;
+  font-weight: bold;
+  padding: 0 0 8px;
+  text-align: left;
+  word-break: break-word;
+}
+.titre{
+  font-family:Arial, Helvetica, sans-serif ; 
+ 
+}
+.titre2{
+  color: rgba(0, 0, 0, .55);
+    font-family: Calibre, Helvetica Neue, Segoe UI, Helvetica, Arial, Lucida Grande, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    
+    max-width: 350px;
+    text-align: left;
+    word-break: keep-all;
+    padding: 15px 0 10px;
+   margin-left: 30px;
 }
 
-.App-link {
-  color: #61dafb;
+
+.input-email {
+  background: rgba(0, 0, 0, .04);
+  border: none;
+  border-radius: 10px;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 1);
+  display: block;
+  font-family: Calibre, Helvetica Neue, Segoe UI, Helvetica, Arial, Lucida Grande, sans-serif;
+  font-size: 19px;
+  height: 36px;
+  margin-bottom: 12px;
+  padding: 8px 16px;
+  width: 320px
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+.button-connect {
+  background-color: #0a7cff;
+  border-color: #0a7cff
 }
+
+.button-connect {
+  font-family: Helvetica Neue, Segoe UI, Helvetica, Arial, Lucida Grande, sans-serif
+}
+
+.button-connect{
+  font-family: Calibre, Helvetica Neue, Segoe UI, Helvetica, Arial, Lucida Grande, sans-serif;
+  line-height: 19px
+}
+
+.button-connect {
+  font-family: Helvetica Neue, Segoe UI, Helvetica, Arial, Lucida Grande, sans-serif
+}
+
+.button-connect{
+  font-weight: 600
+}
+
+.button-connect:hover {
+  background-color: #4d4dff;
+  background-image: none;
+  border: 1px solid #0084ff
+}
+.button-connect:hover {
+  background-color: #4d4dff;
+  border-color: #4d4dff
+}
+
+.button-connect:focus {
+  border: 1px solid #0084ff;
+  border-radius: 24px
+}
+
+.button-connect:focus {
+  border-color: #0a7cff
+}
+
+.button-connect:active {
+  background-color: #0077e5;
+  border: 1px solid transparent;
+  opacity: .2
+}
+
+#box{
+  color: rgba(0, 0, 0, .60);
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 145px;
+  margin-top: 0;
+  text-align: left;
+}
+.img-microsoft{
+  width: 145px;
+  height: 34px;
+}
+.img-apple{
+  width: 145px;
+  height: 60px;
+}
+section{
+  margin-top: -48px;
+  margin-left: 156px;
+}
+.md{
+  color: #0A7CFF;
+  margin: 20px;
+  white-space: inherit;
+  font-size: .9375rem;
+  font-family: Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif;
+}
+
+// Footer
+ .bigbox-footer{
+  font-family: Calibre, Helvetica Neue, Segoe UI, Helvetica, Arial, Lucida Grande, sans-serif;
+  color: #000;
+  margin: 4px;
+  
+
+ }
+ .liens a{
+  color: #000;
+ 
+ }
+
+ .img-footer {
+  margin-left: 850px;
+  width: 165px;
+  margin-top: -111px;
+ }
+ .liens{
+  margin-left: 28px;
+ }
+ #footer{
+  display: flex;
+    justify-content: space-around;
+   margin-left: 30px;
+    width: 900px;
+    font-size: 15px;
+ }
+ .ul-footer{
+  display: flex;
+  margin-top: 3px;
+  margin-left: -590px;
+ }
+ .ver{
+  width: 50%;
+  font-size: 13px;
+  margin-top: 20px;
+  margin-left: 23px;
+ }
